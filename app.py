@@ -12,8 +12,7 @@ CHROMEDRIVER_PATH = "chroma/chromedriver.exe"
 
 # ========== UI ==========
 st.set_page_config(page_title="Scraper Réseaux Sociaux", layout="centered")
-st.title("
-         Scraper LinkedIn & Facebook")
+st.title("Scraper LinkedIn & Facebook")
 
 site_choice = st.selectbox("Choisissez la plateforme à scraper", ["LinkedIn", "Facebook"])
 
